@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinet dentaire Docteur SQUALLI HOUSSAINI KAMAL</title>
+    <meta name="description" content="Cabinet dentaire de haute qualité. Des soins dentaires de haute qualité dans un environnement moderne et chaleureux.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Dr. SQUALLI HOUSSAINI KAMAL</a>
+            <ul class="nav-links">
+                <li><a href="#accueil" data-i18n="nav_home">Accueil</a></li>
+                <li><a href="#a-propos" data-i18n="nav_about">À propos</a></li>
+                <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-toggle">عربي</button>
+                <a href="#rdv" class="btn-primary btn-nav" data-i18n="nav_rdv">Prendre RDV</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero_title">Votre sourire, <br>notre priorité.</h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">Des soins dentaires de haute qualité dans un environnement moderne et chaleureux.</p>
+            <div class="hero-actions">
+                <a href="#rdv" class="btn-primary" data-i18n="hero_btn_primary">Prendre Rendez-vous</a>
+                <a href="#services" class="btn-secondary" data-i18n="hero_btn_secondary">Découvrir nos services</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper">
+            <!-- Placeholder for premium realistic dental office -->
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Cabinet dentaire moderne" class="hero-image">
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <span class="section-badge" data-i18n="services_badge">Expertise</span>
+            <h2 class="section-title" data-i18n="services_title">Nos Services</h2>
+        </div>
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-icon">✦</div>
+                <h3 data-i18n="service1_title">Soins Généraux</h3>
+                <p data-i18n="service1_desc">Prévention, détartrage et traitements conservateurs pour maintenir une hygiène bucco-dentaire irréprochable.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-icon">✧</div>
+                <h3 data-i18n="service2_title">Esthétique Dentaire</h3>
+                <p data-i18n="service2_desc">Blanchiment, facettes et réhabilitation du sourire pour une esthétique parfaite et naturelle.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-icon">◈</div>
+                <h3 data-i18n="service3_title">Orthodontie</h3>
+                <p data-i18n="service3_desc">Alignement dentaire discret et moderne, adapté aux enfants comme aux adultes (gouttières invisibles).</p>
+            </div>
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-icon">◇</div>
+                <h3 data-i18n="service4_title">Implants</h3>
+                <p data-i18n="service4_desc">Solutions durables pour le remplacement de dents manquantes avec des matériaux de dernière génération.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="testimonials">
+        <div class="section-header">
+            <span class="section-badge" data-i18n="testi_badge">Avis Patients</span>
+            <h2 class="section-title" data-i18n="testi_title">Ce qu'ils disent de nous</h2>
+        </div>
+        <div class="testimonials-grid">
+            <!-- Review 1 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" data-i18n="review1_text">"Je recommande vivement Docteur SQUALLI. Très professionnel et performant. Travail et service de qualité. Meilleur dentiste que j’ai connu."</p>
+                <div class="reviewer-name">- Sofia Tahiri Hassani</div>
+            </div>
+            <!-- Review 2 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" data-i18n="review2_text">"Pour toutes les personnes qui ont peur des dentistes, je vous conseille ce dentiste, il est vraiment gentil, à l'écoute, honnête... Très belle expérience à FES. Prix raisonnables."</p>
+                <div class="reviewer-name">- Salma bd</div>
+            </div>
+            <!-- Review 3 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" data-i18n="review3_text">"Très bon médecin, à l'écoute, professionnel, et très compétent. Je recommande vivement."</p>
+                <div class="reviewer-name">- Ghita Benj</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="rdv" class="booking">
+        <div class="booking-container">
+            <div class="booking-info">
+                <h2 data-i18n="booking_title">Planifiez votre consultation</h2>
+                <p data-i18n="booking_desc">Sélectionnez le motif de votre visite ainsi que le créneau qui vous convient. Notre équipe vous confirmera le rendez-vous dans les plus brefs délais.</p>
+            </div>
+            <div class="booking-widget">
+                <form id="booking-form" class="booking-form">
+                    <div class="form-group">
+                        <label for="service-select" data-i18n="form_service_label">Motif de consultation</label>
+                        <select id="service-select" required>
+                            <option value="" disabled selected data-i18n="form_service_placeholder">Choisissez un service...</option>
+                            <option value="general" data-i18n="form_service_1">Soins Généraux</option>
+                            <option value="esthetique" data-i18n="form_service_2">Esthétique Dentaire</option>
+                            <option value="orthodontie" data-i18n="form_service_3">Orthodontie</option>
+                            <option value="implant" data-i18n="form_service_4">Implantologie</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group calendar-group">
+                        <label data-i18n="form_date_label">Date souhaitée</label>
+                        <div class="calendar-wrapper">
+                            <!-- JS will generate dates here -->
+                            <div class="date-scroll" id="date-scroll"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group time-group" id="time-group" style="opacity: 0.5; pointer-events: none;">
+                        <label data-i18n="form_time_label">Heure</label>
+                        <div class="time-slots" id="time-slots">
+                            <button type="button" class="time-slot">09:00</button>
+                            <button type="button" class="time-slot">10:00</button>
+                            <button type="button" class="time-slot">11:30</button>
+                            <button type="button" class="time-slot">14:00</button>
+                            <button type="button" class="time-slot">15:30</button>
+                            <button type="button" class="time-slot">17:00</button>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-block" data-i18n="form_submit">Confirmer la demande</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Docteur SQUALLI HOUSSAINI KAMAL</h3>
+                <p data-i18n="footer_brand_desc">Chirurgien Dentiste</p>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="footer_contact">Contact</h4>
+                <p><a href="tel:+212535651659" dir="ltr">+212 5 35 65 16 59</a></p>
+                <p>contact@drsqualli.ma</p>
+            </div>
+            <div class="footer-address">
+                <h4 data-i18n="footer_address">Adresse</h4>
+                <p data-i18n="footer_address_line1">1 Avenue De Palestine Immeuble Krikech Ville Nouvelle</p>
+                <p data-i18n="footer_address_line2">Fès 30000, Maroc</p>
+            </div>
+            <div class="footer-hours">
+                <h4 data-i18n="footer_hours">Horaires</h4>
+                <p data-i18n="footer_hours_week">Lundi - Vendredi: 08:30 - 20:00</p>
+                <p data-i18n="footer_hours_sat">Samedi: 08:30 - 15:00</p>
+                <p data-i18n="footer_hours_sun">Dimanche: Fermé</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">&copy; 2026 Cabinet dentaire Docteur SQUALLI HOUSSAINI KAMAL. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Widget -->
+    <a href="https://wa.me/212535651659" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+    </a>
+
+    <!-- Custom Modal for Booking Confirmation -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 data-i18n="modal_title">Demande Confirmée</h3>
+                <button class="modal-close" id="modal-close-btn">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Content injected via JS -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn-primary" id="modal-ok-btn" data-i18n="modal_ok">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
